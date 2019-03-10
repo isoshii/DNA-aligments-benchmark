@@ -1,0 +1,2 @@
+#!/bin/bash
+for f in *.afa; do fac -g "$f" resFile"$f"; done
